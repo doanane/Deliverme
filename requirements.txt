@@ -1,0 +1,13 @@
+fastapi
+starlette
+pydantic
+typing-extensions
+asgiref
+click
+psycopg2
+colorama
+SQLAlchemy
+psycopg2
+SQLAlchemy_utils
+werkzeug
+fastapi_jwt_auth
