@@ -1,13 +1,27 @@
+# fastapi
+# starlette
+# pydantic
+# typing-extensions
+# asgiref
+# click
+# psycopg2
+# colorama
+# SQLAlchemy
+# psycopg2
+# SQLAlchemy_utils
+# werkzeug
+# fastapi_jwt_auth
+# psycopg2-binary
+
 fastapi
-starlette
-pydantic
-typing-extensions
-asgiref
-click
-psycopg2
-colorama
-SQLAlchemy
-psycopg2
-SQLAlchemy_utils
+uvicorn
+sqlalchemy23
+psycopg2-binary
+sqlalchemy-utils
+python-jose[cryptography]
+python-multipart
+passlib[bcrypt]
 werkzeug
-fastapi_jwt_auth
+pyjwt
+fastapi-jwt-auth
+email-validator

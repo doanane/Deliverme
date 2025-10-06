@@ -30,7 +30,7 @@ async def signup(sign: SignUpModel, db: Session = Depends(get_db)):
     new_user = User(
         username=sign.username,
         email=sign.email,
-        password=sign.password,
+        password=generate_password_hash(sign.password),
         is_staff=sign.is_staff,
         is_active=sign.is_active,
     )
