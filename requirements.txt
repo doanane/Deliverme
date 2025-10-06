@@ -23,5 +23,6 @@ python-multipart
 passlib[bcrypt]
 werkzeug
 pyjwt
-fastapi-jwt-auth
 email-validator
+dotenv
+multipart

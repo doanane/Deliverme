@@ -1,6 +1,6 @@
 from database import engine, Base
-from models import User, Order
-import models  # This ensures models are registered
+from models import User, Order  # noqa: F401
+import models  # This ensures models are registered  # noqa: F401
 
 
 def debug_database():
